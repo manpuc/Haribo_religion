@@ -1,0 +1,180 @@
+body {
+    font-family:sans-serif;
+}
+
+  li {
+    list-style: none;
+}
+
+.header {
+    background-color:#3b3b3b;
+    color: #fffaf1;
+    height:90px;
+}
+
+  .header-logo{
+    font-size: 36px;
+    float: left;
+    padding: 20px 40px 20px 40px;
+}
+  .header-list li {
+    float: left;
+    font-size: 18px;
+    padding: 33px 20px;
+}
+  
+.main {
+    padding: 0px 80px;
+}
+
+  .copy-container h1 {
+    font-size: 140px;
+}
+  
+  .copy-container h2 {
+    font-size: 60px;
+}
+
+.copy-container img{
+    margin : 0 auto
+}
+
+.back-image1{
+    background-image:url(https://cdn.discordapp.com/attachments/969135790342934589/998252421375594586/Hello_everyone.png);
+    }
+
+.contents {
+    height: 600px;
+    margin-top: 200px;
+    text-align : center;
+}
+  
+.section-title {
+    border-bottom: 15px solid #727a7e;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+  
+  .contents-item {
+    float: left ;
+    margin-right: 30px;
+    float: center ;
+}
+  
+  .contents-item p {
+    font-size: 24px;
+    margin-top: 0px;
+    
+}
+
+p.hover-sample:hover{
+	color: #ff7b00;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+li.hover-sample:hover{
+	color: #ff7b00;
+	font-size: 20px;
+	font-weight: bold;
+}
+  
+  
+.footer {
+    background-color:#3b3b3b;
+    color: #fffaf1;
+    height:120px;
+    padding: 40px;
+}
+
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+}
+  
+  .footer-list {
+    float: right;
+}
+  
+  .footer-list li {
+    padding-bottom: 20px;
+}
+
+a {
+    color:#fffaf1;
+    text-decoration-line:none;
+}
+
+.contents-item img{
+    width: 150px;
+    height: 150px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+img.content1 {
+    position: relative; bottom:px ; 
+}
+
+.circle {
+    width: 75px;
+    margin: 60px auto;
+    border-radius: 30px;
+    position: relative; bottom:-30px ; 
+    position: relative; left:-60px ; 
+    animation: fuwafuwa 2s infinite;
+ }
+ 
+.circle1 {
+    width: 75px;
+    margin: 60px auto;
+    border-radius: 30px;
+    position: relative; bottom:257px ; 
+    position: relative; left:30px ; 
+    animation: fuwafuwa1 2s infinite;
+ }
+ 
+ .circle2 {
+    width: 75px;
+    margin: 60px auto;
+    border-radius: 30px;
+    position: relative; bottom:544px ; 
+    position: relative; left:121px ; 
+    animation: fuwafuwa 2s infinite;
+ }
+
+ .circle3 {
+    width: 75px;
+    margin: 60px auto;
+    border-radius: 30px;
+    position: relative; bottom:831px ; 
+    position: relative; left:211px ; 
+    animation: fuwafuwa1 2s infinite;
+ }
+
+ @keyframes fuwafuwa {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  @keyframes fuwafuwa1 {
+    0% {
+      transform: translateY(-30px);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(-30px);
+    }
+  }
+ 
